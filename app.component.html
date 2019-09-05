@@ -1,4 +1,7 @@
-<div class= "container">
-  <app-sign-up> </app-sign-up>
-
-</div>
+Username: <input [(ngModel)] = "t1" (blur) =   "fun2()">
+<br>
+password: <input [(ngModel)] = "t2" type = "password">
+<br>
+<input type = "checkbox" [(ngModel)] = "chk1" > Remember Me
+<br>
+<input type = "button" value="Login" (click)="funlogin()">

@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'project9';
+t1;t2;chk1;
+fun2(){
+  this.t2=localStorage.getItem(this.t1)
+}
+funlogin(){
+  if(this.chk1==true)
+  {
+    localStorage.setItem(this.t1,this.t2)
+  }
+}
 }
